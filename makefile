@@ -1,6 +1,6 @@
-all: Readme.md
+all: README.md
 
-Readme.md:
-	touch Readme.md
-	date +"%c" > Readme.md	
-	cat guessinggame.sh | wc -l >> Readme.md
+README.md:
+	touch README.md
+	date +"%c" > README.md	
+	cat guessinggame.sh | wc -l >> README.md
