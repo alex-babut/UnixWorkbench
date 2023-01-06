@@ -10,7 +10,7 @@ function generate_files {
     touch file$i.txt
   done
   n_res=$(ls -1 file* | wc -l)
-  echo Files generated: $n_res 
+  #echo Files generated: $n_res 
 }
 
 function guess {
